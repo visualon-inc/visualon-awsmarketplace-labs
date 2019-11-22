@@ -1,0 +1,6 @@
+{
+    "title":"HTML5 Player Thumbnail Scrubbing Demo",
+    "subtitle":"Thumbnail scrubbing",
+    "description":"<p>Hover over the timeline to see the Thumbnail feature of the VisualOn HTML5 Player in action. </p><p><a href=\"/index.php/html5-developer-guide/#Thumbnail\">Click here</a> to see the sample code to load your own Thumbnail.</p>",
+    "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/webvtt-thumbnails"
+}

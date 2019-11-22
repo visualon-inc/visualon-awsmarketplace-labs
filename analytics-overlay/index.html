@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Stict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+  <!-- viewport tag only valid to mobile browser. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <!-- player SDK & plugin -->
+  <script src="https://d2oqx05f1pe3rg.cloudfront.net/latest/libs/voplayer.min.js?n=1"></script>
+  <!-- player ui sdk -->
+  <link href="https://d2oqx05f1pe3rg.cloudfront.net/latest/libs/voplayer-ui.min.css?n=1" rel="stylesheet" />
+  <script src="https://d2oqx05f1pe3rg.cloudfront.net/latest/libs/voplayer-ui.min.js?n=1"></script>
+
+  <script src="../common/assets/assets.js"></script>
+  <link rel="stylesheet" href="../common/css/main.css"/>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <div class="vop-player-frame">
+    <div id="player-container">
+      <div id="idAnalyticsOverlay" class="vop-analyticsoverlay-menu vop-normal-analyticsoverlay">
+        <div>
+            <span class="vop-analyticsoverlay-tag">Player Version:</span>
+            <span id="idAnalytics_playerVersion"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Startup Time:</span>
+          <span id="idAnalytics_startupTime"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Play Time:</span>
+          <span id="idAnalytics_playTime"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Type Live or VOD:</span>
+          <span id="idAnalytics_streamType"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Buffering Time:</span>
+          <span id="idAnalytics_bufferingTime"></span>
+        </div>
+        <div >
+          <span class="vop-analyticsoverlay-tag">Resolution:</span>
+          <span id="idAnalytics_resolution"></span>
+        </div>
+        <div >
+          <span class="vop-analyticsoverlay-tag">Bandwidth:</span>
+          <span id="idAnalytics_bandwidth"></span>
+        </div>
+        <div >
+          <span class="vop-analyticsoverlay-tag">Average Bandwidth:</span>
+          <span id="idAnalytics_aveBandwidth"></span>
+        </div>
+        <div >
+          <span class="vop-analyticsoverlay-tag">Playlist Bitrate:</span>
+          <span id="idAnalytics_playlistBitrate"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">FrameRate:</span>
+          <span id="idAnalytics_streamingFps"></span>
+        </div>
+        <div >
+          <span class="vop-analyticsoverlay-tag">Adaptations:</span>
+          <span id="idAnalytics_adaptations"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Total Frames:</span>
+          <span id="idAnalytics_totalFrames"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Dropped Frames:</span>
+          <span id="idAnalytics_droppedFrames"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Download Time:</span>
+          <span id="idAnalytics_downloadTime"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Download Bytes:</span>
+          <span id="idAnalytics_downloadBytes"></span>
+        </div>
+        <div>
+          <span class="vop-analyticsoverlay-tag">Dropped Bytes:</span>
+          <span id="idAnalytics_droppedBytes"></span>
+        </div>
+        <div class="vop-url-div">
+          <span class="vop-analyticsoverlay-tag">Video URL:</span>
+          <span id="idAnalytics_videoLinkURL">
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

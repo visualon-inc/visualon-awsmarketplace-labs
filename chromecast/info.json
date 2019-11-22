@@ -1,0 +1,6 @@
+{
+    "title":"HTML5 Player Chromecast Demo",
+    "subtitle":"Chromecast",
+    "description":"<p>Cast video directly to your screen using Chromecast and the VisualOn HTML5 Player. Our HTML5 Player supports Chromecast for the HLS and MPEG-DASH protocols and Widevine and PlayReady DRMs. </p><p><a href=\"https://www.visualon.com/index.php/html5-developer-guide/#Chromecast\">Click here</a> to learn how to enable Chromecast sender and receiver.</p><p>Note: This feature is supported on Chrome only.</p>",
+    "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/chromecast"
+}

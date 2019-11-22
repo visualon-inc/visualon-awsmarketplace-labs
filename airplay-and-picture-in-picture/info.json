@@ -1,0 +1,6 @@
+{
+    "title":"HTML5 Player AirPlay Demo",
+    "subtitle":"AirPlay",
+    "description":"<p>AirPlay allows wireless streaming and related metadata between devices of audio, video, and photos, as well as the sharing of screens. With a simple configuration of your app, you can deliver AirPlay functionality to your users.</p><p>Check <a href=\"/index.php/html5-document/\">API manual</a> for more detail.</p><p>Note: these features are only available for Safari on iOS and MacOS X.</p>",
+    "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/airplay-and-picture-in-picture"
+}
