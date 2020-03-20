@@ -2,27 +2,37 @@
 
 
 ## Prerequisite
-Please refer to Tools/setuphttpserver/Win32/README.txt or Tools/setuphttpserver/MacOS/README.md to check how to setup an HTTP
-server and run the player demo.
+Please refer to Tools/setuphttpserver/Win32/README.txt or Tools/setuphttpserver/MacOS/README.md to check how to setup a HTTP
+server and run the player demo. 
 
+If your server tops on MacOS or Linux, you need change the permission of code files by command "sudo chmod +x files".
 
 ## Quick start for developers
 Create a div element in your HTML first. Please make sure the controls attribute is present.
 ```html
 <div id="container"></div>
 ```
-Add voplayer.min.js to the end of the body.
+Add player and ui sdk to the end of the body.
 ```html
-<body>
+<head>
   ...
+  <!-- Player SDK -->
   <script src="yourPathOfLibs/voplayer.min.js"></script>
-</body>
+  <!-- UI SDK -->
+  <link href="yourPathOfLibs/voplayer-ui.min.css" rel="stylesheet"/>
+  <script src="yourPathOfLibs/voplayer-ui.min.js"></script>
+</head>
 ```
-Now comes to good stuff, we need to create a MediaPlayer & initialize it.
+Now comes to good stuff, we need to create a voplayer and UI to initialize your player..
 ```js
    var divVideoPlayer = document.getElementById("container");
+   // build player
    var player = new voPlayer.Player(divVideoPlayer);
    player.init(config);
+   // attach ui engine
+   playerUI_ = new voPlayer.UIEngine(player_);
+   playerUI_.buildUI();
+   // load stream
    player.open(source);
    player.play();
 ```
@@ -37,6 +47,8 @@ When it is all done, it should look like the following code.
     <script src="libs/voplayer.min.js"></script>
     <script>
       var container = document.getElementById("container");
+      
+      // build player
       var player = new voPlayer.Player(container);
       var config = {
           // Please ask AE for an valid client key.
@@ -46,6 +58,11 @@ When it is all done, it should look like the following code.
           }
       };
       player.init(config);
+      
+      // attach ui engine
+      playerUI_ = new voPlayer.UIEngine(player_);
+      playerUI_.buildUI();
+      
       var source = {
         links: [{
             uri: "http://dash.edgesuite.net/akamai/bbb_30fps/bbb_30fps.mpd",
@@ -60,12 +77,11 @@ When it is all done, it should look like the following code.
 ## Guide for configuring player and source
 Users can initialize the player with a configuration and open the media source with sourceConfig. 
 
-For the sample code, users can modify "voDefaultConfig" and "voDefaultStream" in "SamplePlayer/sampleplayer/app/assets.js"
-to set their own configuration and default stream. Also, users can add streams to "voAvailableStreams" in
-"SamplePlayer/sampleplayer/app/assets.js".
+For the sample code, player configuration and sourceConfig are in "common/assets/assets.js".
 
-If the media source does not have a complex configuration, users can input the URL and related DRM information 
-by selecting "Enter Asset" from the drop-down menu of "stream" in the Demo.
+"common_config" is player configuration, you must set a valid license key for it.
+
+"DRM_stream_wv" "Webvtt_Thumbnail_stream" "Low_latency_stream" ... are sourceConfig
 
 
 
