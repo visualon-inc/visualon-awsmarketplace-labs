@@ -79,7 +79,8 @@ Users can initialize the player with a configuration and open the media source w
 
 For the sample code, player configuration and sourceConfig are in "common/assets/assets.js".
 
-"common_config" is player configuration, you must set a valid license key for it.
+"common_config" is player configuration.
+You should apply for the license key on the dashboard, and set it to comon_config.
 
 "DRM_stream_wv" "Webvtt_Thumbnail_stream" "Low_latency_stream" ... are sourceConfig
 
