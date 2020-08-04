@@ -3,7 +3,7 @@ var HLS_LINK = 'https://d1w9xdakxie2rx.cloudfront.net/html5/hls/playlist.m3u8';
 var DASH_LINK = 'https://d1w9xdakxie2rx.cloudfront.net/html5/dash/voweb_dash.mpd';
 var common_config = {
   // Please ask AE for an valid client key.
-  key: '',
+  key: 'k07gsp42-azZrZm50N3gtc2FzNTQtMS0x',
   width: '100%',
   height: '100%',
   playback: {
@@ -88,7 +88,7 @@ var Airplay_Pip_stream = {
 // Title: chromecast assets
 var Chromecast_config = JSON.parse(JSON.stringify(common_config));
 Chromecast_config.cast = {
-  receiverAppId: 'C84EE2F6', // VisualOn aws marketplace customer receiver
+  receiverAppId: 'C84EE2F6' // VisualOn aws marketplace customer receiver
 };
 
 var Chromecast_stream = {
@@ -115,7 +115,7 @@ var External_Subtitle_info = {
 // Title: Lowlatency
 var Low_latency_stream = {
   links: [{
-    uri: 'https://vm2.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd'
+    uri: 'https://livesim.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd'
   }],
   advanced: {
     lowLatencyMode: true
@@ -136,7 +136,7 @@ var Webvtt_Thumbnail_stream = {
 
 var fcc_stream = {
   links: [{
-    uri: 'https://vm2.dashif.org/dash/vod/testpic_2s/cea608.mpd',
+    uri: 'https://livesim.dashif.org/dash/vod/testpic_2s/cea608.mpd',
     type: 'dash'
   }]
 };
@@ -145,7 +145,7 @@ var fcc_stream = {
 // lowlatench comparsion
 var Lowlatency_Comparsion_Lowlatency_Stream = {
   links: [{
-    uri: 'https://vm2.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd',
+    uri: 'https://livesim.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd',
     type: 'dash'
   }],
   advanced: {
@@ -154,7 +154,7 @@ var Lowlatency_Comparsion_Lowlatency_Stream = {
 };
 var Lowlatency_Comparsion_Normal_Stream = {
   links: [{
-    uri: 'https://vm2.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd',
+    uri: 'https://livesim.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd',
     type: 'dash'
   }],
   advanced: {

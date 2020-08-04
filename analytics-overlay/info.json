@@ -1,6 +1,6 @@
 {
-    "title":"HTML5 Player Analytics Overlay Demo",
+    "title":"HTML5+ Player Analytics Overlay Demo",
     "subtitle":"Analytics Overlay",
-    "description":"<p>VisualOn Analytics Overlay captures and demonstrates the real-time player KPI with onscreen overlay on VisualOn HTML5 player. You can enable this feature without any plug-in installation and server-side efforts.</p><p>Learn more about VisualOn OnStream Analytics, please click <a href=\"https://www.visualon.com/index.php/onstream-analytics/\">here</a> .</p>",
+    "description":"<p>VisualOn Analytics Overlay captures and demonstrates the real-time player KPI with onscreen overlay on VisualOn HTML5+ player. You can enable this feature without any plug-in installation and server-side efforts.</p><p>Learn more about VisualOn OnStream Analytics, please click <a href=\"https://www.visualon.com/index.php/onstream-analytics/\">here</a> .</p>",
     "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/analytics-overlay"
 }

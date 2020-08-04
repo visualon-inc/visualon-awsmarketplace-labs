@@ -28,20 +28,6 @@ span {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.vop-player-frame {
-  position: relative;
-  width: 720px;
-  height: 405px;
-  background: black;
-}
-
-.vop-lowlatency-player-frame {
-  position: relative;
-  width: 480px;
-  height: 270px;
-  background: black;
-}
-
 #player-container {
   position: absolute;
 }
@@ -81,10 +67,6 @@ span {
    outline: 0px;
 }
 
-.vop-fullscreen-analyticsoverlay {
-  font-size: x-large;
-  min-width: 240px;
-}
 .vop-normal-analyticsoverlay {
   font-size: x-small;
 }

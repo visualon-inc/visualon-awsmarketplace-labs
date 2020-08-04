@@ -1,6 +1,6 @@
 {
-    "title":"HTML5 Player DRM Demo",
+    "title":"HTML5+ Player DRM Demo",
     "subtitle":"DRM – Flexibility",
-    "description":"<p>Each browser has inherent limitations in the fragmented DRM ecosystem. The VisualOn HTML5 Player makes it easier to target the necessary DRM for a multi-DRM content object. Our player also identifies the browser type and selects the suitable DRM automatically.</p><p><a href=\"/index.php/html5-developer-guide#DRM\">Click here</a> to learn more about Multi-DRM.</p><p>The following video is DRM protected and VisualOn HTML5 Player automatically selects the needed DRM for your browser.</p>",
+    "description":"<p>Each browser has inherent limitations in the fragmented DRM ecosystem. The VisualOn HTML5+ Player makes it easier to target the necessary DRM for a multi-DRM content object. Our player also identifies the browser type and selects the suitable DRM automatically.</p><p><a href=\"/index.php/html5-developer-guide#DRM\">Click here</a> to learn more about Multi-DRM.</p><p>The following video is DRM protected and VisualOn HTML5+ Player automatically selects the needed DRM for your browser.</p>",
     "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/drm"
 }

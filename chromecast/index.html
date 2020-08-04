@@ -4,6 +4,7 @@
   <!-- viewport tag only valid to mobile browser. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.0.4/iframeResizer.contentWindow.min.js"></script>
 
   <!-- google cast sender sdk -->
   <script defer type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
@@ -15,11 +16,12 @@
   <script src="https://d2oqx05f1pe3rg.cloudfront.net/latest/libs/voplayer-ui.min.js?n=1"></script>
 
   <script src="../common/assets/assets.js"></script>
+  <script src="../common/js/tool.js"></script>
   <link rel="stylesheet" href="../common/css/main.css"/>
   <script src="./js/main.js"></script>
 </head>
 <body>
-  <div class="vop-player-frame">
+  <div id="player-frame" class="vop-player-frame">
     <div id="player-container">
     </div>
   </div>

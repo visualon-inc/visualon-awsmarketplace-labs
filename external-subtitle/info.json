@@ -1,6 +1,6 @@
 {
-    "title":"HTML5 Player External Subtitles Demo",
+    "title":"HTML5+ Player External Subtitles Demo",
     "subtitle":"External Subtitle",
-    "description":"<p>The VisualOn HTML5 Player supports multiple types of external subtitle including SRT, TTML and WebVTT.</p><p><a href=\"/index.php/html5-developer-guide/#External-Subtitle\">Click here</a> for the developer guide.</p><p>Note: The external subtitle is not supported on Safari for iOS</p>",
+    "description":"<p>The VisualOn HTML5+ Player supports multiple types of external subtitle including SRT, TTML and WebVTT.</p><p><a href=\"/index.php/html5-developer-guide/#External-Subtitle\">Click here</a> for the developer guide.</p><p>Note: The external subtitle is not supported on Safari for iOS</p>",
     "github":"https://github.com/visualon-inc/visualon-html5-demos/tree/master/external-subtitle"
 }
