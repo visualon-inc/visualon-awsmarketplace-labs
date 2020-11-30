@@ -3,6 +3,7 @@ var player_ = null;
 var playerUI_ = null;
 
 function onProtocolChange() {
+  player_.close();
   var proc = document.getElementById('protocol').value;
   if (proc === 'HLS')
     player_.open(HLS_Clear_stream);
